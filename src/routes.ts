@@ -5,7 +5,7 @@ import { SurveysController } from "./controllers/SurveyController";
 const router = Router();
 
 const userController = new UserController();
-const surveysController = new SurveysController;
+const surveysController = new SurveysController();
 
 router.post("/users", userController.create);
 
